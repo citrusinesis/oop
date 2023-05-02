@@ -5,9 +5,9 @@ public class Assign02_04 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("소문자 알파벳 하나를 입력하시오>> ");
-        for (int i = scanner.next().charAt(0); i >= 97; i--) {
-            for (int j = 97; j <= i; j++) {
-                System.out.print((char) j);
+        for (char i = scanner.next().charAt(0); i >= 'a'; i--) {
+            for (char j = 'a'; j <= i; j++) {
+                System.out.print(j);
             }
             System.out.println();
         }
